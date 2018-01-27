@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Title</title>
+    <script src="tctip-1.0.3.js"></script>
+</head>
+<body>
+</body>
+</html>
+
+    <script>
+        new tctip({
+            top: '20%',
+            button: {
+                id: 9,
+                type: 'dashang',
+            },
+
+            list: [
+                {
+                    type: 'alipay',
+                    qrImg: 'images/alipay.jpg'
+                },
+                {
+                    type: 'wechat',
+                    qrImg: 'images/wechat.jpg'
+                },
+
+            ]
+        }).init()
+</script>
