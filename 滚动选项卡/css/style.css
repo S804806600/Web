@@ -1,0 +1,55 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.tabs {
+	width: 1200px;
+	margin: 0 auto;
+	height: 336px;
+	overflow: hidden;
+}
+
+.tabs_item {
+	height: 36px;
+}
+
+.tabs_block {
+	height: 300px;
+}
+
+.list_item {
+	float: left;
+	width: 200px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 26px;
+	text-align: center;
+	background-color: #FC0;
+	cursor: pointer;
+}
+
+.list_item.active {
+	color: #FFF;
+	background-color: #F60
+}
+
+.tabs_block {
+	width: 20000px;
+	position: relative;
+}
+
+.list_block {
+	display: none;
+	float: left;
+	width: 1200px;
+	height: 300px;
+	font-size: 100px;
+	text-align: center;
+	line-height: 300px;
+	background-color: #F4F4F4
+}
+
+.list_block.show {
+	display: block;
+}
