@@ -1,0 +1,31 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.ui-content h1 {
+		color: burlywood;
+		font-size: 14px;
+	}
+	
+	#myPanel li{
+		list-style: none;
+	}
+	#myPanel li a{
+		text-decoration: none;
+		color: cornflowerblue;
+	}
+	
+	#header {
+     border: 1px solid black;
+		height: 40px;
+	}
+	.ui-content {
+		height: 100px;
+	 border: 1px solid black;
+	}
+	
+	#footer {
+		height: 50px;
+	border: 1px solid black;
+	}
