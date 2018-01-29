@@ -1,8 +1,26 @@
-* {
-	padding: 0px;
-	margin: 0px;
+*{
+	margin: 0;
+	padding: 0;
+}
+#bigbox{
+	width: 100%;
+	height: 600px;
+
+}
+#bigbox #header{
+	background: blanchedalmond;
+	height: 40px;
+
 }
 
+#bigbox #header a{
+border: none;
+background: none;
+}
+#bigbox #header a:active{
+	border: none;
+background: none;
+}
 a {
 	text-decoration: none;
 }
@@ -12,16 +30,20 @@ ul {
 }
 
 .slider {
-		text-align: center;
+	text-align: center;
 	margin: 0 auto;
 	position: relative;
+	width:100%;
+	height: 1000px;
+	
 }
 
 .slider,
 .slider-panel img,
 .slider-extra {
-	width: 640px;
-	height: 360px;
+	text-align: center;
+	width:360px;
+	height: 176px;
 }
 
 .slider-panel,
@@ -45,7 +67,7 @@ ul {
 }
 
 .slider-nav {
-	margin-left: -51px;
+	margin-left: -37px;
 	position: absolute;
 	left: 50%;
 	bottom: 4px;
@@ -93,4 +115,29 @@ ul {
 .slider-next {
 	left: 100%;
 	margin-left: -28px;
+}
+
+.box1{
+	margin-top: 10px;
+	height: auto;
+}
+.box2{
+	height: 200px;
+}
+.box3{
+	height: 200px;
+}
+#myPanel{
+	text-align: center;
+}
+#myPanel p{
+	margin-top: 5px;
+	
+}
+
+#myPanel ul li{
+	padding: 10px;
+}
+.ui-content{
+	text-align: center;
 }
